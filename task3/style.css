@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: slategray;
+}
+
+/* #trafficLight {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+} */
+
+.traffic-light {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-around;
+  width: 120px;
+  height: 360px;
+  border-radius: 10px;
+  border: 10px solid black;
+  background: gray;
+  margin: 40px auto;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+}
+
+.sample {
+  text-align: center;
+}
+
+img {
+  width: 40%;
+}

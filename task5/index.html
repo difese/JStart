@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>JStart. 5 задача (Перехват формы)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../favicon.ico">
+  </head>
+  <body>
+    <form id="form-submit" action="https://ya.ru/">
+      <label>
+        Текст
+        <input id="text-input" type="text" placeholder="Введите текст">
+      </label>
+      <button id="button-form" type="submit">
+        Ввести текст в консоль и удалить из формы
+      </button>
+    </form>
+    <hr>
+    <p>Введенный текст:</p>
+    <p id="duplicate-field"></p>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color:darkslategray;
+  text-align: center;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: indigo;
+  text-shadow: .5rem .5rem .5rem navy;
+  -webkit-text-stroke: .3rem indigo;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1rem;
+  margin: auto;
+}
+
+h1>a:hover {
+  text-shadow: .5rem .5rem .5rem navy, -.5rem -.5rem .5rem rebeccapurple;
+}
+
+ul {
+  font-size: 2rem;
+  list-style-type: none;
+  line-height: 2;
+}
+
+a{
+  text-decoration: none;
+}
+
+li>a {
+  color: teal;
+}
+
+li>a::before {
+  content: '✿ ';
+  color: olive;
+}
+
+li>a::after {
+  content: ' ✿';
+  color: olive;
+}
+
+li>a:hover {
+  color: firebrick;
+}
+
+li>a:visited {
+  color: olive;
+}
+
+li>a:visited:hover {
+  color: olivedrab;
+}
+
+.copyright {
+  font-weight: 400;
+  letter-spacing: .1rem;
+}
+
+.copyright>a {
+  color: blue;
+}
+
+.copyright>a:hover {
+  color: indigo;
+}
+
+.copyright>a:visited:hover {
+  color:blueviolet;
+}

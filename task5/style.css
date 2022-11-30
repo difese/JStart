@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2rem;
+  background-color: gray;
+}
+
+input {
+  min-width: calc(100% - 500px);
+  min-height: 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 0 1rem;
+}
+
+form, p {
+  margin: 1rem;
+}
+
+p#duplicate-field {
+  color: pink;
+}
+
+button {
+  min-width: 350px;
+  min-height: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: darkgray;
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  margin: 1rem;
+
+}
+
+button:hover {
+  background-color: pink;
+  border: 1px dashed dimgray;
+  color: dimgray;
+}
